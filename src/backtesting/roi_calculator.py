@@ -372,7 +372,7 @@ Conclusion:
         
         if metrics['is_significant'] and metrics['vig_adjusted_roi'] > 3:
             report += "✓ Strategy shows statistically significant positive edge"
-        elif metrics['vig_adjusted_roi'] > 3 but not metrics['is_significant']:
+        elif metrics['vig_adjusted_roi'] > 3 and not metrics['is_significant']:
             report += "⚠ Positive ROI but needs more data for significance"
         else:
             report += "✗ No significant edge detected - review strategy"

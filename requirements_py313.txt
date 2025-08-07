@@ -1,0 +1,37 @@
+# GolfPredict Requirements for Python 3.13
+# Updated for Python 3.13 compatibility
+
+# Web scraping
+beautifulsoup4
+requests
+httpx
+
+# Data manipulation
+pandas
+numpy
+
+# Database
+sqlalchemy
+
+# Analysis and statistics
+scipy
+scikit-learn
+
+# Notebooks
+jupyter
+notebook
+ipykernel
+
+# Utilities
+python-dotenv
+pydantic
+
+# Development tools
+pytest
+black
+pylint
+
+# Visualization
+matplotlib
+seaborn
+plotly
